@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clove Dental - Root Canal Treatment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section 1: Navbar -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <span class="logo-orange">clove:)</span>
+          <span class="logo-sub">DENTAL</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#hero">Home</a>
+          <a href="#treatments">Treatments</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#locations">Clinics</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav-right">
+          <a href="tel:9856589510" class="phone-btn">📞 985-6589-510</a>
+          <a href="#form-section" class="btn btn-orange nav-cta"
+            >Book Appointment</a
+          >
+          <button class="menu-btn" id="menuBtn">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section 2: Hero Section with Consultation Form -->
+    <section class="hero" id="hero">
+      <div class="hero-container">
+        <div class="hero-left">
+          <span class="tag">Zero Pain • Expert RCT</span>
+          <h1>Painless Root Canal Treatment in Delhi</h1>
+          <p>
+            Your smile, our priority. Get advanced root canal treatment by
+            certified dental specialists with world-class technology.
+          </p>
+
+          <div class="hero-action">
+            <a href="#form-section" class="btn btn-orange">Book Appointment</a>
+            <a href="#treatments" class="btn btn-secondary">View Treatments</a>
+          </div>
+
+          <div class="doctor-badge">
+            <img
+              src="https://t3.ftcdn.net/jpg/02/69/36/62/360_F_269366251_jqcHWQeyCbUwIBLybjo1WrdJnwe4Hv8q.jpg"
+              alt="Dentist"
+            />
+            <div>
+              <strong>Dr. Sameer & Team</strong>
+              <p>Senior Endodontist (10+ yrs exp)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Form -->
+        <div class="hero-right" id="form-section">
+          <div class="form-card">
+            <h3>Get Expert Dental Guidance</h3>
+            <p>Book your free consultation today.</p>
+
+            <form id="consultForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Mobile Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter 10-digit number"
+                  required
+                />
+              </div>
+
+              <div class="form-group captcha-wrap">
+                <label for="captcha">Security Code</label>
+                <div class="captcha-row">
+                  <span id="captchaCode">1514</span>
+                  <input type="text" id="captcha" placeholder="1514" required />
+                </div>
+              </div>
+
+              <div class="checkbox-wrap">
+                <input type="checkbox" id="agree" required checked />
+                <label for="agree"
+                  >I agree to Clove Dental's Terms and Privacy Policy.</label
+                >
+              </div>
+
+              <button type="submit" class="btn btn-orange submit-btn">
+                Book Free Consultation
+              </button>
+              <p id="formMsg" class="success-msg"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Stats Ribbon -->
+    <section class="stats-bar">
+      <div class="stats-container">
+        <div class="stat-box">
+          <h3>600+</h3>
+          <p>Clinics</p>
+        </div>
+        <div class="stat-box">
+          <h3>1300+</h3>
+          <p>Dentists</p>
+        </div>
+        <div class="stat-box">
+          <h3>30 L+</h3>
+          <p>Happy Patients</p>
+        </div>
+        <div class="stat-box">
+          <h3>35K+</h3>
+          <p>Ortho Cases</p>
+        </div>
+        <div class="stat-box">
+          <h3>55K+</h3>
+          <p>Implants Placed</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Types of Root Canal Treatments -->
+    <section class="treatments" id="treatments">
+      <div class="section-title">
+        <h2>Types of Root Canal Treatments</h2>
+        <p>
+          Removing infected pulp, thorough cleaning, and durable biocompatible
+          filling.
+        </p>
+      </div>
+
+      <div class="treatments-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-icon">🦷</div>
+          <h3>Root Canal Treatment</h3>
+          <p class="card-desc">Ideal for infected or deeply damaged teeth.</p>
+
+          <div class="treatment-points">
+            <strong>Types of RCT:</strong>
+            <ul>
+              <li>Root Canal Treatment</li>
+              <li>Split RCT</li>
+              <li>Split RCT with rubber dam</li>
+              <li>Split RCT with laser</li>
+            </ul>
+          </div>
+
+          <div class="price-box">
+            <span>Starting Price</span>
+            <h4>₹ 19,999</h4>
+          </div>
+          <a href="#form-section" class="btn btn-orange card-btn"
+            >Get Free Consultation</a
+          >
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-icon">🩺</div>
+          <h3>Re-Root Canal Treatment</h3>
+          <p class="card-desc">
+            For issues that persist or recur after previous treatment.
+          </p>
+
+          <div class="treatment-points">
+            <strong>Types of RCT:</strong>
+            <ul>
+              <li>Re-RCT with rubber dam</li>
+              <li>Re-RCT laser specialist</li>
+              <li>Re-RCT with retrieval of old filling</li>
+              <li>Microscopic root canal</li>
+            </ul>
+          </div>
+
+          <div class="price-box">
+            <span>Starting Price</span>
+            <h4>₹ 19,999</h4>
+          </div>
+          <a href="#form-section" class="btn btn-orange card-btn"
+            >Get Free Consultation</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Why Choose Clove Dental -->
+    <section class="why-us" id="why-us">
+      <div class="section-title">
+        <h2>Why Choose Clove Dental?</h2>
+        <p>India's leading dental care brand with 600+ clinics nationwide</p>
+      </div>
+
+      <div class="why-container">
+        <!-- Left: Accordion -->
+        <div class="accordion">
+          <div class="acc-item active">
+            <div class="acc-head">
+              <span>DORI - A.I. Enabled Dental Chair</span>
+              <span class="acc-sign">-</span>
+            </div>
+            <div class="acc-body">
+              <p>
+                Our proprietary AI monitors the sterilization status of dental
+                chairs after every patient treatment to prevent
+                cross-contamination.
+              </p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <div class="acc-head">
+              <span>10x Safety & 4 Steps Sterilization Process</span>
+              <span class="acc-sign">+</span>
+            </div>
+            <div class="acc-body">
+              <p>
+                Ultrasonic cleaning, autoclaving, and sealed packaging opened
+                right in front of you.
+              </p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <div class="acc-head">
+              <span>Experienced & Certified Implantologists</span>
+              <span class="acc-sign">+</span>
+            </div>
+            <div class="acc-body">
+              <p>
+                Specialist dentists with extensive clinic experience and
+                continuous advanced training.
+              </p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <div class="acc-head">
+              <span>Updated With World Class Equipment</span>
+              <span class="acc-sign">+</span>
+            </div>
+            <div class="acc-body">
+              <p>
+                Modern digital X-rays, rotary endodontics, and comfortable
+                cafe-style clinic spaces.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Clinic Image -->
+        <div class="why-image">
+          <img
+            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
+            alt="Clove Dental Doctors"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Find Us Across India (Clinics Directory) -->
+    <section class="locations" id="locations">
+      <div class="section-title">
+        <h2>Find Us Across India</h2>
+        <p>
+          Over 600+ clinics across major cities. Find your nearest clinic
+          easily.
+        </p>
+      </div>
+
+      <div class="locations-container">
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Delhi/NCR</h4>
+            <span>190 Clinics</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Bangalore</h4>
+            <span>110 Clinics</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Mumbai</h4>
+            <span>40 Clinics</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Chennai</h4>
+            <span>59 Clinics</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Hyderabad</h4>
+            <span>76 Clinics</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div class="city-icon">🏥</div>
+          <div>
+            <h4>Pune</h4>
+            <span>76 Clinics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Frequently Asked Questions -->
+    <section class="faq" id="faq">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Clear answers to common questions about dental visits and RCT.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Can I choose the dentist on my own for treatment?</h4>
+            <span>+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Yes, you can request your preferred doctor or specialist when
+              booking your appointment.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Will I get the same doctor each time I visit?</h4>
+            <span>+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Yes, we ensure you have the same doctor throughout your treatment
+              for consistent care.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>What are your dental clinic timings?</h4>
+            <span>+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Our clinics are open 7 days a week, from 9:00 AM to 9:00 PM.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How can I book an appointment?</h4>
+            <span>+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              You can fill out the form above, call us directly at 985-6589-510,
+              or walk into any nearby branch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <span class="logo-orange">clove:)</span> <strong>DENTAL</strong>
+          <p>© 2026 Clove Dental. All Rights Reserved. Managed by --.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
